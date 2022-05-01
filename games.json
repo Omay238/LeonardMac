@@ -1,5 +1,64 @@
 {
   "games": [
-    
+    {
+      "name": "Duck Life",
+      "description": "Train up a duckling then enter it in races! As you play the training mini games, the duck levels up, making it faster during the races",
+      "url": "ducklife"
+    },
+    {
+      "name": "Duck Life 2",
+      "description": "Train up a duckling then enter it in races to become the world champion of duck racing! (yes duck racing exists)",
+      "url": "ducklife2"
+    },
+    {
+      "name": "Duck Life 3",
+      "description": "Train up your duck and enter it in races! This time, Ducklife meets Pokemon as the ducks can evolve to become naturally better at certain skills.",
+      "url": "ducklife3"
+    },
+    {
+      "name": "Duck Life 4",
+      "description": "Train your team of ducks to reach the top of the duck racing championship in this long-awaited sequel",
+      "url": "ducklife4"
+    },
+    {
+      "name": "Bloons TD 1",
+      "description": "A tower defense game where monkeys and their towers try to stop enemy balloons (called Bloons) from getting through the track by popping them",
+      "url": "bloons1"
+    },
+    {
+      "name": "Bloons TD 2",
+      "description": "A tower defense game where monkeys and their towers try to stop enemy balloons (called Bloons) from getting through the track by popping them",
+      "url": "bloons2"
+    },
+    {
+      "name": "Bloons TD PP 1",
+      "description": "A tower defense game where monkeys and their towers try to stop enemy balloons (called Bloons) from getting through the track by popping them",
+      "url": "bloonspp1"
+    },
+    {
+      "name": "Bloons TD PP 2",
+      "description": "A tower defense game where monkeys and their towers try to stop enemy balloons (called Bloons) from getting through the track by popping them",
+      "url": "bloonspp2"
+    },
+    {
+      "name": "Bloons TD PP 3",
+      "description": "A tower defense game where monkeys and their towers try to stop enemy balloons (called Bloons) from getting through the track by popping them",
+      "url": "bloonspp3"
+    },
+    {
+      "name": "Bloons TD PP 4",
+      "description": "A tower defense game where monkeys and their towers try to stop enemy balloons (called Bloons) from getting through the track by popping them",
+      "url": "bloonspp4"
+    },
+    {
+      "name": "Fancy Pants Adventure",
+      "description": "Think about Sonic the Hedgehog with a more clean design and some physics effects added. Ah, and a character that wears some really fancy pants! Just run through the levels, avoiding the monsters and collecting the swirls and trophies.",
+      "url": "fancypants"
+    },
+    {
+      "name": "Toss The Turtle",
+      "description": "Shoot as far as possible using cannons, guns, bombs, jetpacks, rockets, nukes, and a bunch of other cool gadgets",
+      "url": "tosstheturtle"
+    }
   ]
 }
