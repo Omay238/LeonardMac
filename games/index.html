@@ -1,0 +1,18 @@
+{% extends "../base.html" %}
+{% block title %}Games{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="lists.css" />
+{% endblock %}
+{% block content %}
+  {% for game in games %}
+    <div class="spacer" style="--h:20px"></div>
+    <div class="top li">
+      <h1>{{ game.name }}</h1>
+      <p>{{ game.description }}<br>View it <a href="games/{{ game.url }}">here</a>.</p>
+    </div>
+  {% else %}
+    <div class="spacer" style="--h:20px"></div>
+    <p class="top li">No games</p>
+  {% endfor %}
+  <a href="mailto:238maculo238@gmail.com?subject=Request%20for%20game%20on%20LeonardMac.repl.co!&body=This%20is%20my%20request%3A">Submit a game!</a>
+{% endblock %}

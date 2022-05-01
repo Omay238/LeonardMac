@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{% block title %}{% endblock %} - Omay Operations</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  {% block head %}{% endblock %}
+</head>
+
+<body class="bottom">
+  <div class="top header">
+    <h1 class="inline" onclick="location.href=location.origin;">Omay Operations</h1>
+    <span class="material-icons" onclick="showSide();">menu</span>
+  </div>
+  <div class="sidebar top">
+    <span class="material-icons" onclick="hideSide();">close</span>
+    <ul>
+      <li><a href="/projects" class="top">Projects</a></li>
+      <li><a href="/about" class="top">About</a></li>
+    </ul>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+  </div>
+  <div class="spacer" style="--h:30px;"></div>
+  {% block content %}{% endblock %}
+  <script src="script.js"></script>
+  <div class="noise"></div>
+</body>
+
+</html>

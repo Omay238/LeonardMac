@@ -1,0 +1,5 @@
+{
+  "projects": [
+    {"name": "Games", "description": "This is a collection of games that I enjoy that are hosted on this website.", "url": "../games"}
+  ]
+}
