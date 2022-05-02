@@ -1,4 +1,5 @@
 <title>Bloons TD 2</title>
+<link rel="stylesheet" href="flash.css" />
 <div id="container"></div>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script>
@@ -8,6 +9,8 @@
     const player = ruffle.createPlayer();
     const container = document.getElementById("container");
     container.appendChild(player);
+    player.style.width = "100vw";
+    player.style.height = "100vh";
     player.load("files/bloonstd2.swf");
   });
 </script>
