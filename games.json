@@ -59,6 +59,11 @@
       "name": "Toss The Turtle",
       "description": "Shoot as far as possible using cannons, guns, bombs, jetpacks, rockets, nukes, and a bunch of other cool gadgets",
       "url": "tosstheturtle"
+    },
+    {
+      "name": "Cell Machine Mystic Mod Plus Milenakos Mod",
+      "description": "This game plays itself!",
+      "url": "cmmm"
     }
   ]
 }
