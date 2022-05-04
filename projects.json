@@ -1,5 +1,54 @@
 {
   "projects": [
-    {"name": "Games", "description": "This is a collection of games that I enjoy that are hosted on this website.", "url": "../games"}
+    {
+      "name": "Games", 
+      "description": "This is a collection of games that I enjoy that are hosted on this website.", 
+      "url": "games"
+    },
+    {
+      "name": "3D Tree",
+      "description": "A 3D tree made with p5.js.",
+      "url": "projects/3d-tree/index.html"
+    },
+    {
+      "name": "Ace Editor",
+      "description": "An online code editor made with ACE.",
+      "url": "projects/ace-editor/index.html"
+    },
+    {
+      "name": "Boids",
+      "description": "A simulation of boids made with p5.js.",
+      "url": "projects/boids/index.html"
+    },
+    {
+      "name": "Brainf**k",
+      "description": "A brainf**k compiler.",
+      "url": "projects/brainfuck/index.html"
+    },
+    {
+      "name": "Double Pendulum",
+      "description": "A double pendulum simulation.",
+      "url": "projects/double-p/index.html"
+    },
+    {
+      "name": "Color Illusion",
+      "description": "A simple illusion where you see an inverted version of an image, then grayscale.",
+      "url": "projects/illusion/index.html"
+    },
+    {
+      "name": "Music Visualizer",
+      "description": "A simple music visualizer.",
+      "url": "projects/music-visualizer/index.html"
+    },
+    {
+      "name": "CFTerm",
+      "description": "A work in progress linux terminal that is completely frontend.",
+      "url": "projects/term/index.html"
+    },
+    {
+      "name": "turtle.js",
+      "description": "A javascript library that emulates python turtle.",
+      "url": "projects/turtle/index.html"
+    }
   ]
 }
